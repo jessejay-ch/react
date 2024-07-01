@@ -54,7 +54,6 @@ export const disableSchedulerTimeoutInWorkLoop = false;
 export const enableLazyContextPropagation = false;
 export const enableLegacyHidden = false;
 export const forceConcurrentByDefaultForTesting = false;
-export const enableUnifiedSyncLane = __EXPERIMENTAL__;
 export const allowConcurrentByDefault = false;
 
 export const consoleManagedByDevToolsDuringStrictMode = false;
@@ -79,6 +78,7 @@ export const enableInfiniteRenderLoopDetection = false;
 export const enableAddPropertiesFastPath = false;
 
 export const renameElementSymbol = true;
+export const enableShallowPropDiffing = false;
 
 // TODO: This must be in sync with the main ReactFeatureFlags file because
 // the Test Renderer's value must be the same as the one used by the
